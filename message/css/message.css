@@ -1,0 +1,38 @@
+/* 쪽지 보내기(message_form.php) */
+#message_box { position: relative; width: 800px; margin: 0 auto; }
+#message_box h3 { margin-top: 30px;	padding: 10px; border-bottom: solid 2px #516e7f; font-size: 20px; }
+#write_msg { padding: 0 20px; }
+#write_msg span { display: inline-block; }
+#write_msg .col1 { width: 150px; }
+#write_msg li {	padding: 12px; border-bottom: solid 1px #dddddd; }
+#write_msg input { width: 500px; height: 25px; }
+#write_msg textarea { width: 500px;	height: 150px; }
+#write_msg #text_area {	position: relative;	height: 158px; }
+#write_msg #text_area .col1 { position: absolute; top: 10px; }
+#write_msg #text_area .col2 { position: absolute; left: 166px; }
+#write_msg button {	margin: 15px 0 30px 580px;	padding: 5px 23px; cursor: pointer; }
+/* 수신/송신 쪽지함(message_form.php) */
+#message li { padding: 10px; border-bottom: solid 1px #dddddd; }
+#message li:nth-child(1) { font-weight: bold; }
+#message span {	display: inline-block; text-align: center; }
+#message .title { font-weight: bold; }
+#message .col1 { width: 80px; }
+#message .col2 { width: 410px; text-align: left; }
+#message .col3 { width: 120px; }
+#message .col4 { width: 150px; }
+#page_num {	text-align: center;	margin: 30px 0 }
+#page_num li { display: inline; }
+#message_box .top_buttons  { text-align: right; margin: 20px 0 20px 0; }
+#message_box .top_buttons li { display: inline; margin-right: 20px; }
+#message_box .top_buttons a:link { text-decoration: underline; color: green; }
+#message_box .top_buttons a:visited { text-decoration: underline; color: green; }
+#message_box .buttons { text-align: right; margin: 20px 0 40px 0; }
+#message_box .buttons li { display: inline; }
+#message_box .buttons button { padding: 5px 10px; cursor: pointer; }
+/* 쪽지함 보기(view_msg.php) */
+#message_box { width: 800px; margin: 0 auto; }
+#message_box .title { margin-top: 30px; padding: 10px; border-bottom: solid 2px #516e7f; font-size: 20px; }
+#view_content li:nth-child(1) {	padding: 15px; border-bottom: solid 1px #aaaaaa; }
+#view_content .col2 { float: right; }
+#view_content li:nth-child(2) {	padding: 15px 15px 80px 15px; border-bottom: solid 1px #cccccc; }
+#view_content li:nth-child(3) button { padding: 5px 20px; margin: 15px 0 40px 720px; cursor: pointer; }

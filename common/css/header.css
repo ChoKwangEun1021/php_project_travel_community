@@ -1,0 +1,15 @@
+/* 헤더(header.php) */
+div#top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div.logo i#icon {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+div.logo a#title {
+  font-size: 1.5rem;
+  margin-left: 30px;
+}
